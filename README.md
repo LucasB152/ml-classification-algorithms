@@ -133,10 +133,17 @@ The hyper-parameter of each model is selected with **5-fold cross-validation** o
 
 On XOR, Naive Bayes is no better than random guessing. It models each feature independently, while the class only depends on the *combination* of the two features. Decision trees and k-NN do not make this assumption.
 
-| | Decision tree | k-NN | KDE Naive Bayes |
-|---|---|---|---|
-| **Two moons** | ![](model_comparison/mc_two_moons_Decision_tree.png) | ![](model_comparison/mc_two_moons_k-NN.png) | ![](model_comparison/mc_two_moons_KDE_Naive_Bayes.png) |
-| **XOR** | ![](model_comparison/mc_xor_Decision_tree.png) | ![](model_comparison/mc_xor_k-NN.png) | ![](model_comparison/mc_xor_KDE_Naive_Bayes.png) |
+**Two moons**
+
+| Decision tree | k-NN | KDE Naive Bayes |
+|---|---|---|
+| ![](model_comparison/mc_two_moons_Decision_tree.png) | ![](model_comparison/mc_two_moons_k-NN.png) | ![](model_comparison/mc_two_moons_KDE_Naive_Bayes.png) |
+
+**XOR**
+
+| Decision tree | k-NN | KDE Naive Bayes |
+|---|---|---|
+| ![](model_comparison/mc_xor_Decision_tree.png) | ![](model_comparison/mc_xor_k-NN.png) | ![](model_comparison/mc_xor_KDE_Naive_Bayes.png) |
 
 ## Repository structure
 
